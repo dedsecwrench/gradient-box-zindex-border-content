@@ -1,0 +1,93 @@
+
+.first{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    background-color: chartreuse;
+    float:right;
+}
+
+.second{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    background-color: chartreuse;
+    float:right;
+    clear:right;
+   
+}
+.third{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    background-color: chartreuse;
+    clear:right;
+}
+.fourth{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    background-color: chartreuse;
+    float:right;
+    clear:left;
+}
+
+.box1{
+    height: 200px;
+    width: 200px;
+    background-color: brown;
+    color: white;
+    border: 1px solid black;
+    box-sizing: border-box;
+    padding: 50px;
+    font-size: 19px;
+}
+.box2{
+    height: 200px;
+    width: 200px;
+    background-color: brown;
+    color: white;
+    border: 1px solid black;
+    box-sizing: content-box;
+    padding: 50px;
+    font-size: 19px;
+}
+
+.back{
+    height: 200px;
+    width: 300px;
+    background-color: rgb(58, 42, 165);
+    color: white;
+    border: 1px solid black;
+    font-size: 19px;
+    z-index: 10;
+}
+.front{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(124, 42, 165);
+    color: white;
+    border: 1px solid black;
+    font-size: 19px;
+    z-index: 2;
+    position: relative;
+    bottom:200px;
+    left:40px;
+}
+
+.linear{
+    height: 200px;
+    width: 200px;
+    background: linear-gradient(red,yellow,blue );
+    color: white;
+    border: 1px solid black;
+    font-size: 19px;
+}
+.radial{
+    height: 200px;
+    width: 200px;
+    background: radial-gradient(red,yellow,blue );
+    color: white;
+    border: 1px solid black;
+    font-size: 19px;
+}
